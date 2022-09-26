@@ -55,7 +55,7 @@ h4{
     padding: 10px 0;
 }
 h5{
-    font-size: 10px;
+    font-size: 15px;
     padding: 30px 0;
 }
 p {
@@ -155,7 +155,7 @@ header ul li a {
 }
 .business-plan .col-small {
     border: 1px solid #d0d0d3;
-
+    margin-bottom: 50px;
 }
 .business-plan .container-small span {
     margin-right: 30px;
@@ -181,7 +181,7 @@ header ul li a {
 .business-plan ul li{
     font-size: inherit;
     color: inherit;
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .business-plan ul li small{
     display: flex;
@@ -213,7 +213,15 @@ hr {
     width: 50px;
     color: #d0d0d3;
 }
+.punti-salienti {
+    margin-left: 30px;
+    padding: 20px 0;
 
+}
+.punti-salienti i {
+    color: #0061ff;
+    font-weight: 800;
+}
 /****************
     FOOTER
 ****************/
