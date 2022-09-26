@@ -153,6 +153,10 @@ header ul li a {
 .business-plan h2 {
     padding: 50px 0;
 }
+.business-plan .col-small {
+    border: 1px solid #d0d0d3;
+
+}
 .business-plan .container-small span {
     margin-right: 30px;
 }
@@ -164,11 +168,9 @@ header ul li a {
 .tab-title {
     text-align: center;
     padding: 10px 0;
-    border: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3;
 }
 .plan-description {
-    border-left: 1px solid #d0d0d3;
-    border-right: 1px solid #d0d0d3;
     padding: 40px 30px;
 }
 .business-plan ul {
@@ -211,9 +213,7 @@ hr {
     width: 50px;
     color: #d0d0d3;
 }
-.punti-salienti {
-    border-bottom: 1px solid #d0d0d3;
-}
+
 /****************
     FOOTER
 ****************/
