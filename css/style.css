@@ -39,7 +39,24 @@ ul {
     font-family: 'Roboto', sans-serif;
 
 }
+/****************
+    BUTTON
+****************/
+button {
+    font-size: inherit;
+    padding: 5px 10px;
+}
+.btn-primary {
+    background-color: #0061ff;
+    color: white;
+    border: none;
 
+}
+#accedi {
+    background-color: transparent;
+    border: none;
+    color: #797979;
+}
 /****************
     HEADER
 ****************/
@@ -48,15 +65,19 @@ header {
 }
 header .row {
     justify-content: space-between;
-    /* padding: 20px; */
+    padding: 20px;
 }
 .nav-bar .left-nav {
     width: 30%;
 }
-
 .nav-bar .right-nav {
     width: 30%;
 }
+header ul li a {
+    text-decoration: none;
+    color: #797979;
+}
+
 
 /****************
     MAIN
