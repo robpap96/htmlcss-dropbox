@@ -1,0 +1,68 @@
+/****************
+    RESET
+****************/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/****************
+    COMMON
+****************/
+.container-big {
+    max-width: 1200px;
+    margin: auto;
+}
+.container-small {
+    max-width: 1000px;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
+ul {
+    list-style: none;
+    justify-content: space-evenly;
+}
+.col-big {
+    width: 70%;
+}
+.col-small {
+    width: 30%;
+}
+/****************
+    TYPE
+****************/
+* {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/****************
+    HEADER
+****************/
+header {
+    position: sticky;
+}
+header .row {
+    justify-content: space-between;
+    /* padding: 20px; */
+}
+.nav-bar .left-nav {
+    width: 30%;
+}
+
+.nav-bar .right-nav {
+    width: 30%;
+}
+
+/****************
+    MAIN
+****************/
+
+
+/****************
+    FOOTER
+****************/
