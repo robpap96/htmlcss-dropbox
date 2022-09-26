@@ -33,7 +33,7 @@ ul {
     width: 30%;
 }
 /****************
-    TYPE
+    border
 ****************/
 * {
     font-family: 'Open Sans', sans-serif;
@@ -43,9 +43,27 @@ h1 {
     font-size: 82px;
     padding-top: 80px;
 }
+h2 {
+    font-size: 40px;
+}
+h3 {
+    font-size: 20px;
+    padding: 10px 0;
+}
+h4{
+    font-size: 12px;
+    padding: 10px 0;
+}
+h5{
+    font-size: 10px;
+    padding: 30px 0;
+}
 p {
     padding-top: 80px;
     padding-bottom: 50px;
+}
+small {
+    color: #797979;
 }
 /****************
     BUTTON
@@ -128,6 +146,73 @@ header ul li a {
 }
 .hero .row {
     /* padding: 15px 0; */
+}
+.business-plan {
+    padding-top: 150px;
+}
+.business-plan h2 {
+    padding: 50px 0;
+}
+.business-plan .container-small span {
+    margin-right: 30px;
+}
+.business-plan .row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.tab-title {
+    text-align: center;
+    padding: 10px 0;
+    border: 1px solid #d0d0d3;
+}
+.plan-description {
+    border-left: 1px solid #d0d0d3;
+    border-right: 1px solid #d0d0d3;
+    padding: 40px 30px;
+}
+.business-plan ul {
+
+    list-style: none;
+    padding: 20px 0;
+}
+.business-plan ul li{
+    font-size: inherit;
+    color: inherit;
+    padding: 20px 0;
+}
+.business-plan ul li small{
+    display: flex;
+    color: black;
+    font-weight: 200;
+}
+.business-plan ul li small i{
+
+}
+.text-container {
+    padding-left: 5px;
+}
+.point-line {
+}
+.options {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.options button {
+    padding: 10px 40px;
+
+}
+.plan-description span {
+    padding-bottom: 30px;
+}
+hr {
+    margin-left: 30px;
+    width: 50px;
+    color: #d0d0d3;
+}
+.punti-salienti {
+    border-bottom: 1px solid #d0d0d3;
 }
 /****************
     FOOTER
