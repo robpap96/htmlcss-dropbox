@@ -32,6 +32,10 @@ ul {
 .col-small {
     width: 30%;
 }
+img {
+    display: block;
+    width: 100%;
+}
 /****************
     TYPO
 ****************/
@@ -160,7 +164,6 @@ header ul li a {
     padding: 20px 0;
 }
 .hero img {
-    width: 100%;
     position: relative;
     bottom: -80px;
 }
@@ -271,10 +274,7 @@ hr {
 .immagine {
     width: 60%;
 }
-.immagine img {
-    display: block;
-    width: 100%;
-}
+
 .paragrafo {
     padding: 50px;
     width: 40%;
@@ -284,6 +284,22 @@ hr {
     margin-bottom: 30px;
     font-weight: 100;
 
+}
+.dropbox-business {
+    margin-top: 100px;
+}
+.dropbox-business .row {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.dropbox-business .row {
+    margin-top: 100px;
+}
+.dropbox-business p {
+    padding-top: 20px;
+}
+.dropbox-business .col-small{
+    margin-top: 20px;
 }
 /****************
     FOOTER
