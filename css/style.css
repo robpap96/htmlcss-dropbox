@@ -33,7 +33,7 @@ ul {
     width: 30%;
 }
 /****************
-    border
+    TYPO
 ****************/
 * {
     font-family: 'Open Sans', sans-serif;
@@ -47,7 +47,7 @@ h2 {
     font-size: 40px;
 }
 h3 {
-    font-size: 20px;
+    font-size: 23px;
     padding: 10px 0;
 }
 h4{
@@ -65,12 +65,24 @@ p {
 small {
     color: #797979;
 }
+.bigger .text-container {
+    font-size: 14px;
+    font-weight: 100;
+}
+.bigger h4 {
+    font-size: 14px;
+    margin-bottom: 60px;
+}
+.bigger .btn-primary {
+    font-size: 13px;
+}
 /****************
     BUTTON
 ****************/
 button {
     font-size: inherit;
     padding: 5px 10px;
+    font-weight: 100;
 }
 .btn-primary {
     background-color: #0061ff;
@@ -90,6 +102,14 @@ button {
     border: none;
     left: -15px;
     bottom: -10px;
+}
+.bigger .btn-primary {
+    padding: 10px 30px;
+}
+.partner-dropbox .btn-secondary {
+    border: 2px solid #797979;
+    color: #797979;
+    font-weight: 500;
 }
 /****************
     HEADER
@@ -208,19 +228,62 @@ header ul li a {
 .plan-description span {
     padding-bottom: 30px;
 }
+.hr-div {
+    margin: 60px 0;
+    padding-right: 160px;
+}
 hr {
-    margin-left: 30px;
-    width: 50px;
+    position: relative;
+    left: 0;
+    bottom: 20px;
     color: #d0d0d3;
+    padding-right: 20px;
 }
 .punti-salienti {
-    margin-left: 30px;
-    padding: 20px 0;
-
+    margin-top: -50px;
 }
 .punti-salienti i {
     color: #0061ff;
     font-weight: 800;
+}
+.bigger {
+    text-align: center;
+    border: 1px solid #d0d0d3;
+
+}
+.bigger .tab-title {
+    border-bottom: 1px solid #d0d0d3;
+}
+.bigger .col-small {
+    border: none;
+    padding: 10px 0;
+}
+.bigger .col-big {
+    text-align: left;
+    padding: 0 30px;
+}
+.bigger .text-container {
+    padding-left: 0;
+}
+.partner-dropbox {
+    margin-top: 150px;
+}
+.immagine {
+    width: 60%;
+}
+.immagine img {
+    display: block;
+    width: 100%;
+}
+.paragrafo {
+    padding: 50px;
+    width: 40%;
+}
+.paragrafo p {
+    padding: 0;
+    margin-bottom: 30px;
+    font-weight: 100;
+
 }
 /****************
     FOOTER
