@@ -65,10 +65,19 @@
         <section class="business-plan">
             <div class="container-small">
                 <h2>Trova il piano business che fa per te</h2>
-                <input type="radio" checked> 
-                <label for="">Fatturazione annuale</label> 
-                <input type="radio">
-                <label for="">Fatturazione mensile</label> 
+                <!-- SCELTA PIANO -->
+                <div class="scelta-piano row space-between">
+                    <label class="form-control">
+                    <input type="radio" name="radio"/>
+                    Fatturazione annuale
+                    </label>
+                    
+                    <label class="form-control">
+                    <input type="radio" name="radio"/>
+                    Fatturazione mensile
+                    </label>
+                </div>
+                <!-- /SCELTA PIANO -->
                 <div class="row">
                     <div class="col-small">
                         <div class="tab-title"><i class="fa-solid fa-user"></i> Singolo</div>
@@ -107,21 +116,22 @@
                                     <li>
                                         <small>
                                             <div class="point-line"><i class="fa-solid fa-check"></i></div>
-                                            <div class="text-container">1 utente </div>
+                                            <div class="text-container">Invia file fino a 100 GB con Dropbox Transfert  </div>
                                         </small>
                                     </li>
                                     <li>
                                         <small>
                                             <div class="point-line"><i class="fa-solid fa-check"></i></div>
-                                            <div class="text-container"> 5 TB di spazio di archiviazione sicuro </div>
+                                            <div class="text-container">Cartelle offline su dispositivi mobili</div>
                                         </small>
                                     </li>
+                                    
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col-small">
-                        <div class="tab-title"><i class="fa-solid fa-user"></i> Singolo</div>
+                        <div class="tab-title"><i class="fa-solid fa-users"></i> Team</div>
                         <div class="plan-description">
                             <h3>Professional</h3>
                             <h4>€ 12.00</h4>
@@ -157,13 +167,31 @@
                                     <li>
                                         <small>
                                             <div class="point-line"><i class="fa-solid fa-check"></i></div>
-                                            <div class="text-container">1 utente </div>
+                                            <div class="text-container">Nessun limite di spazio per i file</div>
                                         </small>
                                     </li>
                                     <li>
                                         <small>
                                             <div class="point-line"><i class="fa-solid fa-check"></i></div>
-                                            <div class="text-container"> 5 TB di spazio di archiviazione sicuro </div>
+                                            <div class="text-container">Cartelle offline su dispositivi mobili</div>
+                                        </small>
+                                    </li>
+                                    <li>
+                                        <small>
+                                            <div class="point-line"><i class="fa-solid fa-check"></i></div>
+                                            <div class="text-container">Risparmio del 50% rispetto alle iscrizioni singole</div>
+                                        </small>
+                                    </li>
+                                    <li>
+                                        <small>
+                                            <div class="point-line"><i class="fa-solid fa-check"></i></div>
+                                            <div class="text-container">Possibilità di inserire nuovi membri del team</div>
+                                        </small>
+                                    </li>
+                                    <li>
+                                        <small>
+                                            <div class="point-line"><i class="fa-solid fa-check"></i></div>
+                                            <div class="text-container">Gestione dei permessi in base ai ruoli</div>
                                         </small>
                                     </li>
                                 </ul>
@@ -171,7 +199,7 @@
                         </div>
                     </div>
                     <div class="col-small">
-                        <div class="tab-title"><i class="fa-solid fa-user"></i> Singolo</div>
+                        <div class="tab-title"><i class="fa-solid fa-building"></i> Azienda</div>
                         <div class="plan-description">
                             <h3>Professional</h3>
                             <h4>€ 12.00</h4>
@@ -207,13 +235,19 @@
                                     <li>
                                         <small>
                                             <div class="point-line"><i class="fa-solid fa-check"></i></div>
-                                            <div class="text-container">1 utente </div>
+                                            <div class="text-container">Cartelle offline su dispositivi mobili</div>
                                         </small>
                                     </li>
                                     <li>
                                         <small>
                                             <div class="point-line"><i class="fa-solid fa-check"></i></div>
-                                            <div class="text-container"> 5 TB di spazio di archiviazione sicuro </div>
+                                            <div class="text-container">Servizio assistenza 24/h</div>
+                                        </small>
+                                    </li>
+                                    <li>
+                                        <small>
+                                            <div class="point-line"><i class="fa-solid fa-check"></i></div>
+                                            <div class="text-container">Possibilità di personalizzazione totale</div>
                                         </small>
                                     </li>
                                 </ul>
@@ -224,7 +258,10 @@
                 </div>
                 <!-- QUARTO CONTAINER -->
                 <div class="bigger">
-                    <div class="tab-title"><i class="fa-solid fa-user"></i> Team</div>
+                    <div class="tab-title">
+                        <i class="fa-solid fa-building"></i>
+                            Team
+                    </div>
                     <div class="row">
                         <div class="col-big">
                             <h3>Enterprise</h3>

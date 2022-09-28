@@ -32,6 +32,7 @@ ul {
 li {
     margin: 10px;
 }
+
 .col-big {
     width: 70%;
 }
@@ -208,6 +209,9 @@ header ul li a {
 .business-plan {
     padding-top: 150px;
 }
+.business-plan .scelta-piano {
+    width: 40%;
+}
 .business-plan h2 {
     padding: 50px 0;
 }
@@ -227,6 +231,9 @@ header ul li a {
     text-align: center;
     padding: 10px 0;
     border-bottom: 1px solid #d0d0d3;
+}
+.bigger .tab-title i {
+    margin-right: 5px;
 }
 .plan-description {
     padding: 40px 30px;
